@@ -13,7 +13,7 @@ task.wait()
 until island.PlacedBlocks:FindFirstChild("driver_seat_1") and island.PlacedBlocks:FindFirstChild("driver_seat_1")["Driver Seat"].Occupant
 task.wait(2)
 if island.PlacedBlocks:FindFirstChild("driver_seat_1") then
-island.PlacedBlocks:FindFirstChild("driver_seat_1").PrimaryPart.CFrame = CFrame.new(90000,800,-910)
+island.PlacedBlocks:FindFirstChild("driver_seat_1").PrimaryPart.CFrame = CFrame.new(40000,300,-410)
 end
 task.wait()
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("LaunchEvents"):WaitForChild("Return"):FireServer()
